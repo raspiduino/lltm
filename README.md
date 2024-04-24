@@ -6,10 +6,10 @@ Work in progress. See tracklist:
 - [x] Basic LLM interaction APIs
 - [x] Crafted prompts for instructing LLM
 - [x] Parse textual details
-- [] Search APIs
-- [] Knowledge base security
-- [] REPL
-- [] Parse visual details
+- [ ] Search APIs
+- [ ] Knowledge base security
+- [ ] REPL
+- [ ] Parse visual details
 
 # Demo for implemented parts
 
