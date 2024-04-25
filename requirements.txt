@@ -1,2 +1,4 @@
 whoosh-reloaded
 openai
+uuid7
+python-dateutil

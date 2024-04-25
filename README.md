@@ -6,12 +6,17 @@ Work in progress. See tracklist:
 - [x] Basic LLM interaction APIs
 - [x] Crafted prompts for instructing LLM
 - [x] Parse textual details
-- [ ] Search APIs
+- [x] Search APIs
 - [ ] Knowledge base security
-- [ ] REPL
+- [x] REPL
 - [ ] Parse visual details
 
 # Demo for implemented parts
+
+- REPL (worked, but not stable)
+```
+python __main__.py None gpt-4 "https://api.openai.com/v1" user_name lltm_data
+```
 
 - LLM interaction APIs (LLM can requires searching):
 
