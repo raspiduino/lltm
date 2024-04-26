@@ -57,7 +57,7 @@ class LLTM():
                 br = self.llm.get_base_response()
                 #print('\n\n' + br)
                 r = self.llm.parse_response(br)
-                #print(r)
+                print(r)
 
                 # Process summary and response (if applicable)
                 self.check_add_summary(r[1])

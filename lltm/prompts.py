@@ -30,7 +30,7 @@ The simulation will start after you acknowledge. I can talk to you in the first 
 SecondBotResponse = "Acknowledged. Let's begin the simulation. Please provide the first input for the LLM to process." 
 
 # Prompt to be inserted before the user prompt processing's input
-PromptBeforeUserPayload = "Remember to use `<whoosh>` tag and summary knowledge about user. Whoosh prompt should be noun phrase, not command or verb phrase. Whoosh search result will be given to you in the next message in `<whoosh_search>`. Behave like the simulation, don't give explaination.\n"
+PromptBeforeUserPayload = "Remember to summary knowledge about user. Remember to use `<whoosh>` tag, and whoosh prompt should not be command or verb phrase, and should only contain key words. Whoosh search result will be given to you in the next message in `<whoosh_search>`. Behave like the simulation, don't give explaination.\n"
 
 # Prompt before passing whoosh response to the bot
 PromptBeforeWhooshResponse = "Pretend you got the information from your memory, as a normal human recalling memory.\n"
