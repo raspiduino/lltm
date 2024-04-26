@@ -55,7 +55,7 @@ class LLTM():
             while True:
                 # Get and parse respone
                 br = self.llm.get_base_response()
-                print(br)
+                #print('\n\n' + br)
                 r = self.llm.parse_response(br)
                 #print(r)
 
@@ -66,6 +66,7 @@ class LLTM():
                 # If there is whoosh search query -> ask whoosh
                 if r[0] != None:
                     whoosh_r = self.ltm.content_search(r[0])
+                    #print('\n\n' + str(whoosh_r))
                     self.llm.add_whoosh_output(str(whoosh_r))
                 else:
                     # No more work to do, waiting for input

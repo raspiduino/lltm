@@ -7,6 +7,7 @@ Work in progress. See tracklist:
 - [x] Crafted prompts for instructing LLM
 - [x] Parse textual details
 - [x] Search APIs
+- [ ] Fix response before searching
 - [ ] Knowledge base security
 - [x] REPL
 - [ ] Parse visual details
@@ -42,3 +43,5 @@ python __main__.py None gpt-4 "https://api.openai.com/v1" user_name lltm_data
 # Used libraries
 - [`openai-python`](https://github.com/openai/openai-python)
 - [`whoosh-reloaded`](https://github.com/Sygil-Dev/whoosh-reloaded)
+- [`uuid7`](https://github.com/stevesimmons/uuid7)
+- [`python-dateutil`](https://github.com/dateutil/dateutil)
